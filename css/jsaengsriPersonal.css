@@ -70,8 +70,8 @@ img {
 	font-family: helvetica;
 	text-align: center;
 	border: white 1px solid;
-	left: 14%;
-	position: absolute;
+	left: 10%;
+	position: relative;
 	margin: 10px 0px 10px 0px;;
 }
 
