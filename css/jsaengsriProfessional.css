@@ -1,78 +1,351 @@
-img {
-	width:35%;
+@media all and (min-width:1001px) {
+	* {
+		color: rgb(101, 104, 109);
+	}
+
+	html {
+		background-color: navy;
+	}
+	
+	h1, h3 {
+		margin-bottom:0;
+	}
+	
+	h1, h3, .content, .section-header{
+		background-color:whitesmoke;
+	}
+	
+	h4 {
+		position: fixed;
+		background-color: whitesmoke;
+		width: 25%;
+		border: solid;
+		border-color: black;
+		border-width: 3px;
+	}
+	
+	h4 {
+		border-width: 1em;
+		border: solid;
+	}
+	
+	.ribbon {
+		background-color:navy;
+	}
+	.link-button {
+		background-color: transparent;
+		font-family: helvetica;
+		font-size:1.5em;
+		border-style: solid;
+		border-width:5px;
+	}
+
+	.link-button:hover {
+		background-color:white;
+		color:navy;
+	}
+	
+	.photo {
+		top:12%;
+		position: fixed;
+		background-color: whitesmoke;
+		width:23.5%;
+		padding:10px 13px 10px 10px;
+		border:solid;
+		border-color:black;
+		border-width: 3px;
+	}
+	
+	.bio {
+		top: 60%;
+		position: fixed;
+		width: 25%;
+		font-size: 0.65em;
+		text-align: justify;
+		text-justify: inter-word;
+		background-color: whitesmoke;
+		border:solid;
+		border-color:black;
+		border-width:3px;
+		padding:1px;
+	}
+	
+	.contact {
+		font-size: 1.5em;
+	}
+
+	.content {
+		top: 10%;
+		position: absolute;
+		padding:20px 50px 20px 20px;
+		text-align: justify;
+		text-justify: inter-word;
+		font-size: 100%;
+		left:28%;
+		right:0;
+		width: 65%;
+		border: solid;
+		border-width: 3px;
+		border-color:black;
+	}
+
+	.alignleft {
+		float: left;
+	}
+
+	.alignright, .personal{
+		float: right;
+	}
+
+	.alignleft, .alignright {
+		font-size: 1em;
+	}	
+	
+	.section-header {
+		font-size:.75em;
+		color:black;
+	}
+
+	.content-description {
+		font-size:95%;
+	}
+
+	.work-experience {
+		margin:0;
+	}
+
+	.job-title {
+		margin-top:0;
+		font-size: 1em;
+		font-style:italic;
+	}
+
+	ul {
+		display:block;
+	}
 }
-.link-button {
-	background-color: transparent;
-	font-family: helvetica;
-	font-size:1.5em;
-	border:white;
-	color: gray;
+
+
+
+@media all and (min-width:651px) and (max-width:1000px){	
+	* {
+		color: rgb(101, 104, 109);
+	}
+
+	html {
+		background-color: navy;
+	}
+
+	h1, h3 {
+		margin-bottom:0;
+	}
+
+	h4 {
+		position: fixed;
+		background-color:whitesmoke;
+		width:23%;
+		border: solid;
+		border-color:black;
+		border-width: 3px;
+	}
+
+	hr {
+		border-width: 1em;
+		border:solid;
+	}
+
+	body {
+		background-color:whitesmoke;
+	}
+
+	h1, h3, .content, .section-header{
+		background-color:whitesmoke;
+	}
+
+	.ribbon {
+		background-color:navy;
+	}
+	.link-button {
+		background-color: transparent;
+		font-family: helvetica;
+		font-size:1.5em;
+		border-style: solid;
+		border-width:5px;
+	}
+
+	.link-button:hover {
+		background-color:white;
+		color:navy;
+	}
+
+	.photo {
+		top:12%;
+		position: fixed;
+		background-color: whitesmoke;
+		width:20%;
+		padding:10px 13px 10px 10px;
+		border:solid;
+		border-color:black;
+		border-width: 3px;
+	}
+
+	.bio {
+		top: 36%;
+		position: fixed;
+		width: 23%;
+		font-size: 0.65em;
+		text-align: justify;
+		text-justify: inter-word;
+		background-color: whitesmoke;
+		border:solid;
+		border-color:black;
+		border-width:3px;
+		padding:1px;
+	}
+
+	.contact {
+		font-size: 1.5em;
+	}
+
+	.content {
+		top: 10%;
+		position: absolute;
+		padding:20px 50px 20px 20px;
+		text-align: justify;
+		text-justify: inter-word;
+		font-size: 100%;
+		left:25%;
+		right:0;
+		width: 65%;
+		color: rgb(101, 104, 109);
+	}
+
+	.alignleft {
+		float: left;
+	}
+
+	.alignright, .personal{
+		float: right;
+	}
+
+	.alignleft, .alignright {
+		font-size: 1em;
+	}
+
+	.section-header {
+		font-size:.75em;
+		color:black;
+	}
+
+	.content-description {
+		font-size:95%;
+	}
+
+	.work-experience {
+		margin:0;
+	}
+
+	.job-title {
+		margin-top:0;
+		font-size: 1em;
+		font-style:italic;
+	}
+
+	ul {
+		display:block;
+	}
 }
 
-.link-button:hover {
-	background-color:white;
-	color:navy;
+@media all and (max-width: 650px) {
+	html {
+		background-color:navy;
+	}
+	
+	h1 {
+		font-size:1.5em;
+	}
+	
+	h3 {
+		font-size:.7em;
+	}
+	
+	h4 {
+		font-size:1.5em;
+		padding-left:40px;
+		width:100%;
+		background-color:whitesmoke;
+	}
+	
+	h1, h3, .content, .section-header{
+		background-color:whitesmoke;
+	}
+	
+	.ribbon {
+		background-color:navy;
+	}
+	.link-button {
+		background-color: transparent;
+		font-family: helvetica;
+		font-size:.75em;
+		border-style: solid;
+		border-width:5px;
+		color:whitesmoke;
+	}
+
+	.link-button:hover {
+		background-color:white;
+		color:navy;
+	}
+	
+	.alignleft {
+		float: left;
+	}
+
+	.alignright, .personal{
+		float: right;
+	}
+	
+	.photo {
+		top:20%;
+		position: absolute;
+		background-color: whitesmoke;
+		width:30%;
+		padding:10px 13px 10px 10px;
+	}
+	
+	.bio {
+		top: 18%;
+		left: 40%;
+		position: absolute;
+		font-size: .5em;
+		text-align: justify;
+		text-justify: inter-word;
+		background-color: whitesmoke;
+		padding: 10px 10px 10px 0px;
+	}
+	
+	.contact{
+		font-size: 1.25em;
+	}
+	
+	.content {
+		top: 48%;
+		position: absolute;
+		padding:20px;
+		text-align: justify;
+		text-justify: inter-word;
+		font-size: .8em;
+	}
+	
+	.job-title {
+		font-size:0.75em;
+		margin-top:0;
+		font-style: italic;
+	}
+	
+	.bullet-points {
+		font-size:0.8em;
+	}
+	
+
 }
-
-.professional {
-	float: right;
-}
-
-.martial-arts, .maiss, .other-info {
-	padding: 50px 20px 70px 20px;
-	margin:0.75em;
-}
-
-
-.martial-arts {
-	background-color: rgb(41, 149, 188);
-}
-
-.maiss {
-	background-color: rgb(35, 186, 145);
-}
-
-.other-info {
-	background-color: rgb(35, 186, 35);
-}
-
-.title-section {
-	text-align: center;
-	color:white;
-}
-
-.description {
-	color: white;
-	text-align: justify;
-	text-justify: inter-word;
-}
-
-.section{
-	color:black;
-	font-size:1.25em;
-}
-
-.image1{
-	left: 10%;
-	position:relative
-}
-
-.image2{
-	left: 20%;
-	position: relative;
-}
-
-.learn-more-button{
-	padding: .75em 1.25em;
-	background-color:transparaent;
-	color: white;
-	width: 7.5em;
-	font-family: helvetica;
-	text-align: center;
-	border: white 1px solid;
-	left: 10%;
-	position: relative;
-	margin: 10px 0px 10px 0px;;
-}
-
-
