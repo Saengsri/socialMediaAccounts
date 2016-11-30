@@ -24,11 +24,6 @@
 		border-width: 3px;
 	}
 	
-	h4 {
-		border-width: 1em;
-		border: solid;
-	}
-	
 	.ribbon {
 		background-color:navy;
 	}
@@ -46,7 +41,7 @@
 	}
 	
 	.photo {
-		top:12%;
+		top:13%;
 		position: fixed;
 		background-color: whitesmoke;
 		width:23.5%;
@@ -190,7 +185,7 @@
 	}
 
 	.bio {
-		top: 36%;
+		top: 37%;
 		position: fixed;
 		width: 23%;
 		font-size: 0.65em;
