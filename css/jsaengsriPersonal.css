@@ -46,6 +46,9 @@ img {
 	text-align: justify;
 	text-justify: inter-word;
 	font-size: 1.3em;
+	left: 10%;
+	width: 80%;
+	position: relative;
 }
 
 .section{
