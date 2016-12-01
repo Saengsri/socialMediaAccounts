@@ -1,0 +1,64 @@
+html {
+	background-color:navy;
+}
+h1{
+	left:45%;
+	position:absolute;
+	color: white;
+}
+
+h2 {
+	margin-top: 30px;
+	left: 15%;
+	position: relative;
+}
+
+h3, p {
+	left:15%;
+	position: relative;
+}
+
+p {
+	width: 70%;
+	margin-bottom: 50px;
+	text-align: justify;
+}
+
+#general-description, .content {
+	background-color:whitesmoke;
+	color: rbg(37,37,38)
+}
+
+#general-description {
+	top: 15%;
+	left: 5%;
+	width: 30%;
+	height: 35%;
+	position: fixed;
+	border: 3px solid black;
+}
+
+#title {
+	left: 5%;
+	position: absolute;
+}
+
+.description {
+	top: 50px;
+    left: 5%;
+    width: 85%;
+    position: absolute
+}
+
+.content {
+	top:15%;
+	left: 45%;
+	width:50%;
+	position:absolute;
+	border: 3px solid black;
+	font-size: 1.5em;
+}
+
+.link {
+	color:rgb(41, 149, 188);
+}
