@@ -33,7 +33,7 @@ img {
 }
 
 .other-info {
-	background-color: rgb(35, 186, 35);
+	background-color: rgb(35, 186, 100);
 }
 
 .title-section {
@@ -45,6 +45,7 @@ img {
 	color: white;
 	text-align: justify;
 	text-justify: inter-word;
+	font-size: 1.3em;
 }
 
 .section{
