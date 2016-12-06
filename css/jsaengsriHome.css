@@ -50,7 +50,7 @@
 		color:white;
 	}
 
-	.ProfessionalButton, .PersonalButton{
+	.ProfessionalButton, .PersonalButton, .FinalButton{
 		border-width: 5px;
 		border-style: solid;
 		background-color: transparent;
@@ -94,7 +94,7 @@
 	}
 
 	
-	.ProfessionalButton, .PersonalButton{
+	.ProfessionalButton, .PersonalButton, .FinalButton{
 		border-width: 5px;
 		border-style: solid;
 		background-color: transparent;
@@ -136,7 +136,7 @@
 		color:white;
 	}
 	
-	.ProfessionalButton, .PersonalButton{
+	.ProfessionalButton, .PersonalButton, .FinalButton{
 		border-width: 5px;
 		border-style: solid;
 		background-color: transparent;
