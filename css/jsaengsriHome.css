@@ -63,7 +63,7 @@
 		background-image: url("../img/newportbeachpier.jpg");
 		background-repeat: no-repeat;
 		height:100%;
-		background-color: whitesmoke;
+		background-color: navy;
 	}
 	
 	.intro {
@@ -119,6 +119,7 @@
 		background-repeat: no-repeat;
 		height:100%;
 		overflow: hidden;
+		background-color: navy;
 	}
 	
 	.intro {
