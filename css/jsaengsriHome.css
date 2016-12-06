@@ -1,3 +1,25 @@
+.ProfessionalButton {
+	top: 80%;
+	left: 2.5%;
+	position: absolute;
+}
+
+.PersonalButton {
+	top: 80%;
+	left: 35%;
+	position: absolute;
+}
+
+.FinalButton {
+	top: 80%;
+	left: 67.5%;
+	position: absolute;
+}
+
+.FinalButton {
+	background-color: gray;
+}
+
 @media (min-width:1501px){
 	body {
 		text-align: center;
@@ -40,17 +62,6 @@
 		transition-duration:0.5s;
 	}
 
-	.ProfessionalButton {
-		top: 80%;
-		left: 10%;
-		position: absolute;
-	}
-
-	.PersonalButton {
-		top: 80%;
-		left: 60%;
-		position: absolute;
-	}
 
 	.ProfessionalButton:hover, .PersonalButton:hover {
 		background-color: gray;
@@ -93,18 +104,6 @@
 		color: white;
 		padding: 20px;
 		transition-duration:0.5s;
-	}
-
-	.ProfessionalButton {
-		top: 80%;
-		left: 20%;
-		position: absolute;
-	}
-
-	.PersonalButton {
-		top: 80%;
-		left: 60%;
-		position: absolute;
 	}
 	
 	.ProfessionalButton:hover, .PersonalButton:hover {
@@ -149,17 +148,6 @@
 		transition-duration:0.5s;
 	}
 	
-	.ProfessionalButton {
-		top: 80%;
-		left: 10%;
-		position: absolute;
-	}
-
-	.PersonalButton {
-		top: 80%;
-		left: 55%;
-		position: absolute;
-	}
 	
 	.ProfessionalButton:hover, .PersonalButton:hover {
 		background-color: gray;
