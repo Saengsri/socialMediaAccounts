@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Social Media Manager</title>
+	<link href="suggestions.css" type="text/css" rel="stylesheet"></link>
+</head>
+
+<body>
+	<div class="nav-ribbon">
+		<a class="link">
+			<button class="home-button">Home</button>
+		</a>
+		<a class="link">
+			<button class="suggestion-button">Suggestion</button>
+		</a>
+		<a class="link">
+			<button class="link-button">Analytics</button>
+		</a>
+		<a class="dropdown">
+			<button class="dropdown-button">Message
+			<img class="arrow" src="downwardArrow.png"></img>
+			</button>
+		</a>
+		<a class="notifcations"></a>
+	</div>
+	
+	<div class="message-dropdown">
+		<ol class="message-dropdown-content">
+			<!-- make the list include a href to a new page-->
+			<li class="dropdown-list">
+				<a href="test.html">
+					<button class="messaging-buttons">
+						<span>New Message</span>
+					</button>
+				</a>
+			</li>
+			<li class="dropdown-list">
+				<a href="test.html">
+					<button class="messaging-buttons">
+						<span>Inbox</span>
+					</button>
+				</a>	
+			</li>
+			<li class="dropdown-list">
+				<a href="test.html">
+					<button class="messaging-buttons">
+						<span>Sent Messages</span>
+					</button>
+				</a>
+			</li>
+		</ol>
+	</div>
+	
+	<div id="left-section"> 
+		<ol id="table-of-contents">
+			<li>
+				<button class="suggestion-buttons">
+					<span>New Suggestions</span>
+				</button>
+			</li>
+			<li>
+				<button class="suggestion-buttons">
+					<span>Saved Suggestions</span>
+				</button>
+			</li>			
+			<li>
+				<button class="suggestion-buttons">
+					<span>Deleted Suggestions</span>
+				</button>
+			</li>			
+		</ol>
+	</div>
+
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script src="suggestions.js"></script>
+	
+</body>
+
+</html>

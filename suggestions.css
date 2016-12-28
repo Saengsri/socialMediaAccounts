@@ -1,0 +1,90 @@
+body {
+	margin:0px;
+}
+
+.nav-ribbon {
+	background-color: green;
+	padding: 0px 10px;
+	color: white;
+	font-size: 16px;
+	height: 5%;
+}
+
+.link, .dropdown {
+	padding: 0px 15px 0px 40px;
+}
+
+.home-button, .suggestion-button, .dropdown-button, .link-button {
+	background-color: green;
+    color: white;
+    border-color: transparent;
+    font-size: 16px;
+    border: 0px;
+	padding: 10px;
+}
+
+.arrow {
+	top: 1%;
+    left: 550px;
+    position: absolute;
+}
+
+.dropdown-button {
+	padding-right: 25px;
+}
+
+.message-dropdown-content {
+    list-style-type: none;
+    left: 472.5px;
+    position: absolute;
+    margin: 0px;
+	padding-left: 0px;
+	background-color: whitesmoke;
+}
+
+.messaging-buttons {
+	height: 30px;
+	width: 100px;
+	background-color: whitesmoke;
+	color:green;
+	text-align: left;
+	padding: 0px 10px 0px 20px;
+	border-width:0;
+	z-index:10;
+	position:relative;
+}
+
+.messaging-buttons:hover {
+	color: white;
+	background-color: green;
+	opacity: 0.9;
+}
+
+#left-section {
+	background-color: whitesmoke;
+	width: 250px;
+	height: 95%;
+	position: fixed;
+}
+
+#table-of-contents {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.suggestion-buttons {
+	padding: 20px 0px 20px 40px;
+	border: 0px;
+	width: 100%;
+	background-color: whitesmoke;
+	color: green;
+	text-align: left;
+	font-size: 16px;
+}
+
+.suggestion-buttons:hover {
+	background-color: green;
+	opacity: 0.9;
+	color:white;
+}
+
