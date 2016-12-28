@@ -1,27 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta name="author" content="Jeff Saengsri">
-	<link href = "css/jsaengsriHome.css" type="text/css" rel="stylesheet"></href>
 
-	<style>
-	</style>
+<head>
+	<title>Social Media Manager</title>
+	<link href="index.css" type="text/css" rel="stylesheet"></link>
 </head>
 
 <body>
-	<div class="welcome">
-	<h1 class="intro"> Welcome! </h1>
+	<div class="nav-ribbon">
+		<a class="link">
+			<button class="home-button">Home</button>
+		</a>
+		<a class="link">
+			<button class="suggestion-button">Suggestion</button>
+		</a>
+		<a class="link">
+			<button class="link-button">Analytics</button>
+		</a>
+		<a class="dropdown">
+			<button class="dropdown-button">Message
+			<img class="arrow" src="downwardArrow.png"></img>
+			</button>
+		</a>
+		<a class="notifcations"></a>
 	</div>
-	<p class="welcome-message">
-		My name is Jeff Saengsri! Thank you for visiting my website.<br> How would you like to learn about me?
-		<div style="text-align:center;">
-			<a href="jsaengsriProfessional.html">
-				<button class="ProfessionalButton" type="button1">Professional</button>
-			</a>
-			<a href="jsaengsriPersonal.html">
-				<button class="PersonalButton" type="button2">Personal</button>
-			</a>
+	
+	<div class="message-dropdown">
+		<ol class="message-dropdown-content">
+			<!-- make the list include a href to a new page-->
+			<li class="dropdown-list">
+				<a href="test.html">
+					<button class="messaging-buttons">
+						<span>New Message</span>
+					</button>
+				</a>
+			</li>
+			<li class="dropdown-list">
+				<a href="test.html">
+					<button class="messaging-buttons">
+						<span>Inbox</span>
+					</button>
+				</a>	
+			</li>
+			<li class="dropdown-list">
+				<a href="test.html">
+					<button class="messaging-buttons">
+						<span>Sent Messages</span>
+					</button>
+				</a>
+			</li>
+		</ol>
+	</div>
+	
+	
+	<div class="social-media-ribbon">
+		<h1 id="float-left">Facebook</h1>
+		<h1 id="center">Twitter</h1>
+		<h1 id="float-right">Instagram</h1>
+		<p style="clear:both"></p>
+	</div>
+	
+	<div class="content-viewer">
+		<button id="dropdown-button-2">View Social Media</button>
+		<div class="dropdown-content">
+			<input name="checkbox" type="checkbox" value="Facebook" checked>Facebook</input><br>
+			<input name="checkbox" type="checkbox" value = "Twitter" checked>Twitter</input><br>
+			<input name="checkbox" type="checkbox" value = "Instagram" checked>Instagram</input><br>
+			<button class="submit-button">Submit</button>
 		</div>
+	</div>
+	
+	<div class="content">
+		<div id="content-facebook">
+		</div>
+		<div id="content-twitter">
+		</div>
+		<div id="content-instagram">
+		</div>
+	
+	</div>
+	
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script src="index.js"></script>
+
 </body>
 
 </html>
